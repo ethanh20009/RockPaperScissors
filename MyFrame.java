@@ -43,6 +43,7 @@ public class MyFrame extends JFrame{
         add(myPanel);
         pack();
         setVisible(true);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         panels = new JPanel[]{myPanel, opponentPanel, resultPanel};
     }
 
